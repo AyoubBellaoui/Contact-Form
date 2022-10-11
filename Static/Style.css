@@ -1,0 +1,76 @@
+/* Start Form */
+
+body {
+  background-color: #121212;
+}
+
+.alert {
+  margin-bottom: 10px;
+}
+
+.container {
+  height: 100%;
+  width: 55%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+form {
+  max-width: 50%;
+  margin: 50px auto; 
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+}
+
+form textarea {
+  height: 150px !important;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: 'Helvetica', 'sana-serif';
+  font-weight: 800;
+  font-size: 50px;
+  letter-spacing: -3px;
+  color: #757575;
+}
+
+.contact-form i {
+  height: 0;
+  float: left;
+  position: relative;
+  top: -35px;
+  left: 7px;
+  color: #999;
+}
+
+.form-control {
+  padding-left: 32px;
+}
+
+/* change inputs color */
+
+#CLuser { background: black; }
+#CLuser:valid { outline: solid black 2px; }
+#CLuser:invalid { outline: solid ghostwhite 2px; }
+
+#CLemail { background: black; }
+#CLemail:valid { outline: solid black 2px; }
+#CLemail:invalid { outline: solid ghostwhite 2px; }
+
+#CLphone { background: black; }
+#CLphone:valid { outline: solid ghostwhite 2px; }
+#CLphone:invalid { outline: solid ghostwhite 2px; }
+
+#CLmsg { background: black;}
+#CLmsg:valid { outline: solid ghostwhite 2px; }
+#CLmsg:invalid { outline: solid ghostwhite 2px; }
+
+/* change inputs color */
